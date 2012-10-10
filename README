@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4261
+
+Syntax highlighting for Tumblr themes. 
+
+Screenshot: http://i.imgur.com/2IzwA.png
+Source: https://github.com/liamcurry/tumblr.vim
+
+By default it will highlight any files matching *.tumblr.html, but you can change this by adding this to your .vimrc (replace .tblr.html with whatever extension you like):
+
+au BufRead,BufNewFile *.tblr.html set filetype=tumblr
+
+Note: this is a fork of Liam Cooke's original version here: http://www.vim.org/scripts/script.php?script_id=3011. The main difference between the repositories is that this version is easily installable via pathogen or vundle, and it requires no changes to your .vimrc file.
